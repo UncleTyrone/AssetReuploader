@@ -551,8 +551,8 @@ async function runJobAnimations(jobId, assetIDs, creatorID, isGroup, apiKey, coo
 
                     newAssetId = await uploadAnimationWithRetries(
                         buffer,
-                        path.basename(filePath),
-                        desc,
+                        "Test",
+                        "Test",
                         cookie,
                         csrfToken,
                         creatorID,
